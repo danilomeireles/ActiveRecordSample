@@ -103,7 +103,7 @@ namespace CastleActiveRecord
 
 
 
-
+                        
             // Deleting a product:
             Product.Delete(product);
 
@@ -117,14 +117,21 @@ namespace CastleActiveRecord
 
 
             // Getting a customer shopping cart:
-            var costumerShoppingCart = ShoppingCart.GetShoppingCartByCustomer(1); // returns the shopping cart of customer 1
+            var custumerShoppingCart = ShoppingCart.GetShoppingCartByCustomer(1); // returns the shopping cart of customer 1
 
 
 
 
 
             // Getting itens in shopping cart:
-            var itemsInCart = ShoppingCartItem.GetItemsByShoppingCart(costumerShoppingCart.Id); // returns itens in a shopping cart
+            var itemsInCart = ShoppingCartItem.GetItemsByShoppingCart(custumerShoppingCart.Id); // returns itens in a shopping cart
+
+
+
+
+            // Canceling a shopping cart:
+            custumerShoppingCart.Cancel();
+            ShoppingCart.Save(custumerShoppingCart);
         }
         
         /// <summary>
