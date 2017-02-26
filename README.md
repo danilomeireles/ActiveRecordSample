@@ -32,5 +32,5 @@ You can also apply the techniques presented here in Windows Forms projects, ASP.
 
 ## Creating Some Products:
 
-![alt tag](https://github.com/danilomeireles/CastleActiveRecordSample/blob/master/CastleActiveRecord/sample_images/save_product.jpeg)
+![alt tag](https://github.com/danilomeireles/CastleActiveRecordSample/blob/master/CastleActiveRecord/sample_images/save-product.jpeg)
 
