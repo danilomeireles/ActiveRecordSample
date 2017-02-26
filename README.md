@@ -5,7 +5,15 @@ This sample project demonstrates how to use the Castle Active Record as an ORM o
 </p>
 
 <p>
-In this example, I am using a GenericDao class that works with all kind of entities. Note that you will no longer need to create a DAO class for each entity in the project. You can also easily change the persistence layer to apply the Repository Pattern.
+In this example, I am using a GenericDao class that works with all kind of entities. Note that you will no longer need to create a DAO class for each entity in the project.
+</p>
+
+<p>
+ You can also easily change the persistence layer to apply the Repository Pattern.
+</p>
+
+<p>
+You can also apply the techniques presented here in Windows Forms projects, ASP.NET WebForms, ASP.NET MVC and etc.
 </p>
 
 
@@ -25,3 +33,4 @@ In this example, I am using a GenericDao class that works with all kind of entit
 ## Creating Some Products:
 
 ![alt tag](https://github.com/danilomeireles/CastleActiveRecordSample/blob/master/CastleActiveRecord/sample_images/save_product.jpeg)
+
