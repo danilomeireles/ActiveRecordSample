@@ -5,7 +5,7 @@ This sample project demonstrates how to use the Castle Active Record as an ORM o
 </p>
 
 <p>
-In this example, I am using a GenericDao class that works with all kind of entities. Note that you will no longer need to create a DAO class for each entity in the project.
+In this example, I am using a <b>GenericDao</b> class that works with all kind of entities. Note that you will no longer need to create a DAO class for each entity in the project.
 </p>
 
 <p>
