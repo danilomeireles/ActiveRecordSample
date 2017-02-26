@@ -109,7 +109,12 @@
     <None Include="App.config" />
     <None Include="Entity\ClassDiagram1.cd" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="sample_images\class-diagram.jpeg" />
+    <Content Include="sample_images\product_class.jpeg" />
+    <Content Include="sample_images\save_customer.jpeg" />
+    <Content Include="sample_images\save_product.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

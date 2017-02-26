@@ -28,3 +28,8 @@ namespace CastleActiveRecord.Entity
         }
     }
 }
+
+
+
+
+
